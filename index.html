@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main" class="grey">
-        <p id="title" class="fs48 pink">Rock, Paper & Scissor</p>
-        <p id="subtitle" class="fs24 orange"><b>This is Best of 5 games.</b><br>Make your choice:</p>
-        <div id="button-div" class="pink">
+    <div id="main" class="">
+        <p id="title" class="fs48">Rock, Paper & Scissor</p>
+        <div id="subtitle">
+            <p class="fs36"><b>This is Best of 5 games.</b></p>
+            <p class="fs24">Make your choice:</p>
+        </div>
+        <div id="button-div" class="">
             <button id="rock" onclick="playRound('rock')">Rock</button>
             <button id="paper" onclick="playRound('paper')">Paper</button>
             <button id="scissor" onclick="playRound('scissor')">Scissor</button>
         </div>
-        <div id="result" class="orange"></div>
+        <p id="score" class="fs24"></p>
+        <div id="log" class="fs18"></div>
     </div>
 
     <script src="javascript.js"></script>
