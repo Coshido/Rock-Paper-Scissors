@@ -6,28 +6,54 @@ body{
     background-color: #EEEDE7;
 }
 button{
-    font-size: larger;
+    font-size: 24px;
     padding: 10px 20px;
     background-color: #B9B7BD;
     border: none;
     border-radius: 10px;
 }
+p, button, div{
+    color: #0A0708;
+}
 #main{  
     display:flex;
     flex-direction: column;
     justify-content:center;
-    align-items: center;   
+    align-items: center;
+    background-color: #E7D2CC;
+    padding: 60px;  
+    border-radius: 8px; 
+    gap: 40px;
+    min-width: 520px;
 }
 #button-div{
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
+#title, #subtitle, p{
+    margin:0;
+}
+#subtitle{
+    text-align: center;
+}
+#log{
+    width: 100%;
+    border: 1px solid #B9B7BD;
+    padding: 10px;
+    background-color: #EEEDE7;
+}
 .fs48{
     font-size: 48px;
 }
+.fs36{
+    font-size: 36px;
+}
 .fs24{
     font-size: 24px;
+}
+.fs18{
+    font-size: 18px;
 }
 .pink{
     background-color: pink;
