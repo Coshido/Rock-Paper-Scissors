@@ -21,36 +21,36 @@ function playRound(playerChoice){
     let computerChoice = getComputerChoice();
     let result = "";
     if (computerChoice == "rock" && playerChoice == "paper"){
-        result = "Player wins";
+        result = "Player win the match";
         playerScore++; 
      } else if (computerChoice == "rock" && playerChoice == "scissor"){
-        result = "Computer wins";
+        result = "Computer win the match";
         computerScore++;
     } else if (computerChoice == "paper" && playerChoice == "scissor"){
-        result = "Player wins";
+        result = "Player win the match";
         playerScore++; 
     } else if (computerChoice == "paper" && playerChoice == "rock"){
-        result = "Computer wins";
+        result = "Computer win the match";
         computerScore++;
     } else if (computerChoice == "scissor" && playerChoice == "rock"){
-        result = "Player wins";
+        result = "Player win the match";
         playerScore++; 
     } else if (computerChoice == "scissor" && playerChoice == "paper"){
-        result = "Computer wins";
+        result = "Computer win the match";
          computerScore++;
      } else {
-         result = "Draw";
+         result = "Draw, you both get a point";
         playerScore++;
         computerScore++;
     }
     let scoreString = `Player ${playerScore} - Computer ${computerScore}`;
     let resultString = `You picked ${playerChoice}, computer picked ${computerChoice}. ${result}`;
     if (playerScore == 5){
-         resultString = " Player wins!";
+         resultString = " Player win the game!";
          playerScore = 0;
          computerScore = 0;
      } else if (computerScore == 5){
-        resultString = " Computer wins!";
+        resultString = " Computer win the game!";
         playerScore = 0;
          computerScore = 0;
      }
