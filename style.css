@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #EEEDE7;
+}
+button{
+    font-size: larger;
+    padding: 10px 20px;
+    background-color: #B9B7BD;
+    border: none;
+    border-radius: 10px;
+}
+#main{  
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;   
+}
+#button-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.fs48{
+    font-size: 48px;
+}
+.fs24{
+    font-size: 24px;
+}
+.pink{
+    background-color: pink;
+}
+.orange{
+    background-color: orange;
+}
+.grey{
+    background-color: lightgray;
+}
