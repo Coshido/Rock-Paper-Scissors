@@ -1,9 +1,20 @@
 body{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
     background-color: #EEEDE7;
+    
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+}
+#footer-link{
+    text-decoration: none;
+    color: inherit;
 }
 button{
     font-size: 24px;
@@ -11,6 +22,11 @@ button{
     background-color: #B9B7BD;
     border: none;
     border-radius: 10px;
+}
+button:active{
+    background-color: #868B8E;
+    color: #EEEDE7;
+    box-shadow: 2px 2px 5px #212529;
 }
 p, button, div{
     color: #0A0708;
